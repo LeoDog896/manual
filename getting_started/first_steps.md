@@ -112,7 +112,7 @@ In this program each command-line argument is assumed to be a filename, the file
 is opened, and printed to stdout.
 
 ```ts
-import { copy } from "https://deno.land/std@$STD_VERSION/streams/conversion.ts";
+import { copy } from "https://deno.land/std@$STD_VERSION/streams/copy.ts";
 const filenames = Deno.args;
 for (const filename of filenames) {
   const file = await Deno.open(filename);

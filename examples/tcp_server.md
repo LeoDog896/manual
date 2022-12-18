@@ -4,7 +4,7 @@ This is an example of a server which accepts connections on port 8080, and
 returns to the client anything it sends.
 
 ```ts
-import { copy } from "https://deno.land/std@$STD_VERSION/streams/conversion.ts";
+import { copy } from "https://deno.land/std@$STD_VERSION/streams/copy.ts";
 const hostname = "0.0.0.0";
 const port = 8080;
 const listener = Deno.listen({ hostname, port });
